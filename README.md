@@ -85,7 +85,7 @@ Feel free to view my work here.
 ​                                   
 ## Link to Deployed Application
 ​
-[Live Deployment Link]()
+[Live Deployment Link](https://maykanwara.github.io/Note-Taker/)
 
 ​
 ## Screenshots of Finished Product
