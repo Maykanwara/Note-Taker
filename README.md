@@ -85,7 +85,7 @@ Feel free to view my work here.
 ​                                   
 ## Link to Deployed Application
 ​
-[Live Depoyment Link]()
+[Live Deployment Link]()
 
 ​
 ## Screenshots of Finished Product
