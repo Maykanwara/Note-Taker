@@ -68,9 +68,9 @@ You haven’t learned how to handle DELETE requests, but this application offers
 * `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file. -->
 
 # Express.js: Note Taker
-​
+
 ## Description
-​
+
 This is Note Taker showcasing my work.
 Feel free to view my work here.
 
@@ -78,43 +78,24 @@ Feel free to view my work here.
 - Node.js
 
 
-​
+
 ## Link to GitHub main project page
-​
+
 [Portfolio Project Page on GitHub](https://github.com/Maykanwara/Note-Taker)
-​                                   
+                           
 ## Link to Deployed Application
-​
+
 [Live Deployment Link](https://maykanwara.github.io/Note-Taker/)
 
-​
+
 ## Screenshots of Finished Product
 
-​
-### Desktop Header
-​
 
-​
-### Desktop Work Section
-​
-
-
-
-​
-### Desktop Contact and Footer
-​
-
-
-
-​
-## Acknowledgements
-​
-
-​
 ## Contact Information
-​
-Github: ​[Maykanwara](https://github.com/Maykanwara)
-​
+
+
+Github: Maykanwara](https://github.com/Maykanwara)
+
 Email: maykanwara@gmail.com
 
 

@@ -1,8 +1,8 @@
 const router = require("express").Router();
 
 const { readFromFile, readAndAppend }= require("../helpers/fsUtils")
-const path = require("path");
-const { parse } = require("path");
+const { v4: uuidv4 } = require('uuid');
+
 
 router.get("/api/notes", function (req, res) {
 readFromFile("./db/db.json")
@@ -14,8 +14,16 @@ readFromFile("./db/db.json")
 
 router.post("/api/notes", function (req, res) {
   console.log(req.body)
-  readAndAppend(req.body, "./db/db.json")
-  res.json(req.body)
+  let object = {
+    id: uuidv4(), 
+    ...req.body
+  }
+  readAndAppend(object, "./db/db.json")
+  res.json(object)
 });
+
+
+
+
 
 module.exports = router;
